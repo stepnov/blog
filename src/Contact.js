@@ -1,22 +1,23 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row'
+import Col from "react-bootstrap/Col";
 
-class Contact extends React.Component {
-	render() {
+function Contact() {
 		return (
-			<div>
-				<p className='Contact'>My email is {this.props.email} and {model}</p>
-				<Elem />
-			</div>
+			<Container>
+				<Jumbotron>
+					<Row>
+						<Col>
+							<p className='Contact'>My email is {email}</p>
+						</Col>
+					</Row>
+				</Jumbotron>
+			</Container>
 		)
-	}
 }
 
-const model = 'piu piu';
-
-function Elem(props) {
-	return (
-		<p>La la</p>
-	);
-};
+const email = 'eugene.stepnov@gmail.com';
 
 export default Contact;

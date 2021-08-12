@@ -7,14 +7,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.Contact {
-	
-}
-
 .HeaderLinks {
 	text-decoration: none !important;
 }
 
-#about {
-	margin-left: 50px;
+#contact {
+    margin-left: 20px;
+}
+
+#me {
+    max-width: 30%;
 }
